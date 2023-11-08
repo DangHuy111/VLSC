@@ -1,3 +1,7 @@
+body{
+  min-height: 8000px;
+}
+
 .group-child,
 .group-item {
   position: absolute;
@@ -772,8 +776,8 @@
     #ff8f3f 55.73%,
     #c12028
   );
-  width: 1443.99px;
-  height: 567.34px;
+  width: 1440px;
+  height: 1000px;
 }
 .image-26-icon,
 .image-27-icon {
@@ -983,6 +987,7 @@
 .desk11-item,
 .div24 {
   position: absolute;
+  z-index: -1;
 }
 .div24 {
   top: 519.31px;
@@ -999,8 +1004,8 @@
 .desk11 {
   top: 7185px;
   left: 0;
-  width: 1443.99px;
-  height: 705px;
+  width: 1440px;
+  height: 1000px;
   text-align: left;
   font-size: 30px;
 }

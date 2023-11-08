@@ -685,6 +685,9 @@
   text-align: justify;
 }
 .desk11-child {
+  position: absolute;
+  top: 0;
+  left: 0;
   background: linear-gradient(
     90deg,
     #c12028,
@@ -738,7 +741,7 @@
   font-size: 35px;
   width: 201.56px;
 }
-.p26 {
+.p2 {
   margin-block-start: 0;
   margin-block-end: 7px;
 }
@@ -752,7 +755,7 @@
   width: 201.56px;
   height: 119px;
 }
-.p29 {
+.p5 {
   margin-block-start: 0;
   margin-block-end: 5px;
 }
