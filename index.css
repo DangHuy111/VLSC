@@ -1,0 +1,359 @@
+.desktop-1-child {
+    position: absolute;
+    top: 793.5px;
+    left: 732.5px;
+    border-right: 1px solid #fff;
+    box-sizing: border-box;
+    width: 1px;
+    height: 83px;
+  }
+  .desktop-1-item {
+    position: absolute;
+    top: 142px;
+    left: 187px;
+    width: 123px;
+    height: 80px;
+  }
+  .desktop-1-inner,
+  .rectangle-icon {
+    position: absolute;
+    top: 952px;
+    left: 579px;
+    width: 304px;
+    height: 65px;
+  }
+  .rectangle-icon {
+    top: 95px;
+    left: 0;
+    width: 1454px;
+    height: 1013px;
+    object-fit: cover;
+  }
+  .vlsc1 {
+    margin: 0;
+  }
+  .div,
+  .vlsc {
+    font-weight: 500;
+    display: inline-block;
+    -webkit-text-stroke: 5px #fff;
+  }
+  .vlsc {
+    position: absolute;
+    top: 307px;
+    left: 600px;
+    font-size: 96px;
+    width: 363px;
+    height: 114px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .div {
+    top: 421px;
+    left: calc(50% - 127px);
+    font-size: 32px;
+    color: #dc0606;
+    width: 323px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .div,
+  .group-child,
+  .i {
+    position: absolute;
+  }
+  .group-child {
+    top: -5px;
+    left: -5px;
+    border: 5px solid #fff;
+    box-sizing: border-box;
+    width: 387px;
+    height: 97px;
+  }
+  .i {
+    top: 6px;
+    left: 70px;
+    display: inline-block;
+    font-weight: 500;
+    width: 234px;
+  }
+  .rectangle-parent {
+    position: absolute;
+    top: 583px;
+    left: 575px;
+    width: 377px;
+    height: 87px;
+    font-size: 67px;
+  }
+  .group-icon,
+  .line-icon {
+    position: absolute;
+    top: 735.99px;
+    left: 773px;
+    width: 16px;
+    height: 148.01px;
+  }
+  .group-icon {
+    top: 975px;
+    left: 291px;
+    width: 977px;
+    height: 83px;
+  }
+  .desktop-1-child1 {
+    position: absolute;
+    top: 985px;
+    left: 62px;
+    width: 136px;
+    height: 123px;
+  }
+  .group-inner,
+  .group-item,
+  .rectangle-div {
+    position: absolute;
+    top: 53px;
+    left: -1px;
+    background-color: transparent;
+    width: 1440px;
+    height: 123px;
+  }
+  .group-inner,
+  .group-item {
+    top: 0;
+    left: 0;
+    background-color: #002d9f;
+    height: 53px;
+  }
+  .group-inner {
+    left: 743px;
+    width: 104px;
+  }
+  .group-child1 {
+    position: absolute;
+    top: 11px;
+    left: 763px;
+    width: 65px;
+    height: 32px;
+    object-fit: cover;
+  }
+  .group-child2,
+  .group-child3 {
+    position: absolute;
+    top: 0;
+    left: 1099px;
+    background-color: #002d9f;
+    width: 341px;
+    height: 53px;
+  }
+  .group-child3 {
+    top: 10px;
+    left: 1137px;
+    border-radius: 20px;
+    background-color: #dc0606;
+    width: 270px;
+    height: 34px;
+  }
+  .div1 {
+    left: 1142px;
+    display: inline-block;
+    width: 260px;
+  }
+  .div1,
+  .div2,
+  .ellipse-div {
+    position: absolute;
+    top: 12px;
+  }
+  .div2 {
+    left: 571px;
+    display: inline-block;
+    width: 76px;
+    height: 34px;
+  }
+  .ellipse-div {
+    left: 520px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 27px;
+    height: 24px;
+  }
+  .group-child4,
+  .group-child5 {
+    position: absolute;
+    top: 29.47px;
+    left: 541.84px;
+    width: 21.25px;
+    height: 15.53px;
+  }
+  .group-child5 {
+    top: 0;
+    left: 886px;
+    background-color: #002d9f;
+    width: 219px;
+    height: 53px;
+  }
+  .div3 {
+    position: absolute;
+    top: 14px;
+    left: 862px;
+    display: inline-block;
+    width: 113px;
+  }
+  .group-child6 {
+    position: absolute;
+    top: 21px;
+    left: 1000.4px;
+    width: 3px;
+    height: 16.51px;
+  }
+  .div4 {
+    position: absolute;
+    top: 14px;
+    left: 1014px;
+    display: inline-block;
+    width: 75px;
+  }
+  .instance-child,
+  .rectangle-group {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    width: 1440px;
+    height: 53px;
+  }
+  .instance-child {
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+  }
+  .div5 {
+    position: absolute;
+    width: 54.63%;
+    top: 27.78%;
+    left: 20.37%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .group-div,
+  .rectangle-container,
+  .rectangle-parent1,
+  .rectangle-parent2 {
+    position: absolute;
+    height: 98.18%;
+    width: 10%;
+    top: 1.82%;
+    right: 90%;
+    bottom: 0;
+    left: 0;
+  }
+  .group-div,
+  .rectangle-parent1,
+  .rectangle-parent2 {
+    right: 80%;
+    left: 10%;
+  }
+  .rectangle-parent1,
+  .rectangle-parent2 {
+    right: 70%;
+    left: 20%;
+  }
+  .rectangle-parent2 {
+    right: 60%;
+    left: 30%;
+  }
+  .div9 {
+    position: absolute;
+    top: 27.78%;
+    left: 15.74%;
+  }
+  .rectangle-parent3 {
+    position: absolute;
+    height: 98.18%;
+    width: 10%;
+    top: 1.82%;
+    right: 50%;
+    bottom: 0;
+    left: 40%;
+  }
+  .div10 {
+    position: absolute;
+    top: 27.78%;
+    left: 25.93%;
+  }
+  .rectangle-parent4 {
+    position: absolute;
+    height: 98.18%;
+    width: 10%;
+    top: 1.82%;
+    right: 40%;
+    bottom: 0;
+    left: 50%;
+  }
+  .rectangle-parent5,
+  .rectangle-parent6,
+  .rectangle-parent7,
+  .rectangle-parent8 {
+    position: absolute;
+    height: 98.18%;
+    width: 10%;
+    top: 1.82%;
+    right: 30%;
+    bottom: 0;
+    left: 60%;
+  }
+  .rectangle-parent6,
+  .rectangle-parent7,
+  .rectangle-parent8 {
+    right: 20%;
+    left: 70%;
+  }
+  .rectangle-parent7,
+  .rectangle-parent8 {
+    top: 0;
+    right: 10%;
+    bottom: 1.82%;
+    left: 80%;
+  }
+  .rectangle-parent8 {
+    right: 0;
+    left: 90%;
+  }
+  .trang {
+    position: absolute;
+    top: 12px;
+    left: 269px;
+    width: 1080px;
+    height: 55px;
+  }
+  .group-child7,
+  .trang-parent {
+    position: absolute;
+    height: 81px;
+  }
+  .group-child7 {
+    top: 0;
+    left: 0;
+    width: 244px;
+    object-fit: cover;
+  }
+  .trang-parent {
+    top: 74px;
+    left: 39px;
+    width: 1349px;
+    color: #002279;
+  }
+  .desktop-1 {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 1209px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    font-family: Inter;
+  }
+  
