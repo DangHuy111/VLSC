@@ -1230,11 +1230,45 @@
 }
 .trang-parent {
   position: absolute;
-  top: 97px;
-  left: 46px;
-  width: 1349px;
   height: 81px;
-  font-size: 25px;
+}
+
+/* Nút header */
+
+.btnh{
+  width: 100px;
+  height: 54px;
+  margin: 2px -1px;
+}
+
+.btnh:hover{
+  border-bottom: 2px solid red;
+  transition: 0.3s;
+  transform: scale(1.2);
+}
+
+  .dropdown-menu li {
+  position: relative;
+  }
+  .dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -1px;
+  }
+  .dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+  }
+  .dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+  }
+
+
+.trang-parent {
+  top: 74px;
+  left: 39px;
+  width: 1349px;
   color: #002279;
 }
 .group-child4 {

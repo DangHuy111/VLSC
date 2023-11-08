@@ -9,6 +9,16 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;1,500&display=swap"
     />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <div class="desktop-1">
@@ -29,7 +39,10 @@
 
       <img class="group-icon" alt="" src="./public/group-5.svg" />
 
-      <a class="desktop-1-child1" href="desktop4.html">Open</a>
+      <div class="desktop-1-child1 dt">
+        <i class="fa-solid fa-phone"></i>
+      </div>
+      
 
       <div class="rectangle-div"></div>
       <div class="rectangle-group">
@@ -52,7 +65,138 @@
       </div>
       <div class="trang-parent">
         <div class="trang">
-          <div class="rectangle-container">
+          <div class="btn-group">
+            <button class="btn btn-sm btnh" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 17pt; font-weight: lighter; color: #002279; font-weight: bolder;">
+              소개
+            </button>
+            <ul class="dropdown-menu">
+              ...
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn-sm btnh" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 17pt; font-weight: lighter; color: #002279; font-weight: bolder;">
+              모집
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#" style="color: #002279;">정규대학</a></li>
+              <li><a class="dropdown-item" href="#" style="color: #002279;">온라인으로 입학 등록</a></li>
+              <li><a class="dropdown-item" href="#" style="color: #002279;">직업 프리즘</a>
+                <ul class="dropdown-menu dropdown-submenu">
+                  <li>
+                    <a class="dropdown-item" href="#" style="color: #002279;">언어 그룹</a>
+                    <ul class="dropdown-menu dropdown-submenu" style="top: -9.5px;">
+                      <li>
+                        <a class="dropdown-item" href="#" style="color: #002279;">영어</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#" style="color: #002279;">일본어</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#" style="color: #002279;">한국어</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="desktop3.html" style="color: #002279;">중국어</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#" style="color: #002279;">베트남어와 베트남 문화</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="desktop4.html" style="color: #002279;">독일어</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#" style="color: #002279;">미디어 산업 그룹</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#" style="color: #002279;">경제 및 행정 그룹</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#" style="color: #002279;">관광-호텔-음식점 그룹</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#" style="color: #002279;">기술 - 디자인산업 그룹</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#" style="color: #002279;">뷰티케어산업 그룹</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#" style="color: #002279;">연극 배우 - 영화 - 성악 산업 그룹</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a class="dropdown-item" href="#" style="color: #002279;">올바르게 이해 - 올바르게 선택</a></li>
+              <li><a class="dropdown-item" href="#" style="color: #002279;">자주 묻는 질문</a></li>
+              <li><a class="dropdown-item" href="#" style="color: #002279;">수업료</a></li>
+              <li><a class="dropdown-item" href="#" style="color: #002279;">입학안내</a></li>
+              <li><a class="dropdown-item" href="#" style="color: #002279;">이메일 로그인 안내</a></li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn-sm btnh" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 17pt; font-weight: lighter; color: #002279; font-weight: bolder;">
+              교육
+            </button>
+            <ul class="dropdown-menu">
+              ...
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn-sm btnh" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 17pt; font-weight: lighter; color: #002279; font-weight: bolder;">
+              학생
+            </button>
+            <ul class="dropdown-menu">
+              ...
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn-sm btnh" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 17pt; font-weight: lighter; color: #002279; font-weight: bolder;">
+              공고문
+            </button>
+            <ul class="dropdown-menu">
+              ...
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn-sm btnh" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 17pt; font-weight: lighter; color: #002279; font-weight: bolder;">
+              뉴스
+            </button>
+            <ul class="dropdown-menu">
+              ...
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn-sm btnh" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 17pt; font-weight: lighter; color: #002279; font-weight: bolder;">
+              사진
+            </button>
+            <ul class="dropdown-menu">
+              ...
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn-sm btnh" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 17pt; font-weight: lighter; color: #002279; font-weight: bolder;">
+              행정
+            </button>
+            <ul class="dropdown-menu">
+              ...
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn-sm btnh" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 17pt; font-weight: lighter; color: #002279; font-weight: bolder;">
+              신문
+            </button>
+            <ul class="dropdown-menu">
+              ...
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn-sm btnh" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 17pt; font-weight: lighter; color: #002279; font-weight: bolder;">
+              채용
+            </button>
+            <ul class="dropdown-menu">
+              ...
+            </ul>
+          </div>
+          <!-- <div class="rectangle-container">
             <div class="instance-child"></div>
             <div class="div5">소개</div>
           </div>
@@ -64,22 +208,30 @@
             <div class="instance-child"></div>
             <div class="div5">교육</div>
           </div>
+
           <div class="rectangle-parent2">
             <div class="instance-child"></div>
             <div class="div5">학생</div>
           </div>
+
+
           <div class="rectangle-parent3">
             <div class="instance-child"></div>
             <div class="div9">공고문</div>
           </div>
+
           <div class="rectangle-parent4">
             <div class="instance-child"></div>
             <div class="div10">뉴스</div>
           </div>
+
+
+
           <div class="rectangle-parent5">
             <div class="instance-child"></div>
             <div class="div10">사진</div>
           </div>
+
           <div class="rectangle-parent6">
             <div class="instance-child"></div>
             <div class="div10">행정</div>
@@ -91,7 +243,7 @@
           <div class="rectangle-parent8">
             <div class="instance-child"></div>
             <div class="div10">채용</div>
-          </div>
+          </div> -->
         </div>
         <img class="group-child7" alt="" src="./public/rectangle-6@2x.png" />
       </div>

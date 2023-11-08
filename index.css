@@ -357,3 +357,51 @@
     font-family: Inter;
   }
   
+/* Nút header */
+
+.btnh{
+  width: 100px;
+  height: 54px;
+  margin: 2px -1px;
+}
+
+.btnh:hover{
+  border-bottom: 2px solid red;
+  transition: 0.3s;
+  transform: scale(1.2);
+}
+
+  .dropdown-menu li {
+  position: relative;
+  }
+  .dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -1px;
+  }
+  .dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+  }
+  .dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+  }
+
+
+/* phone */
+.dt{
+  background-color: #fff;
+  color: #000;
+  border: 3px solid #002d9f;
+  border-radius: 50%;
+  align-items: center;
+  width: 100px;
+  max-height: 100px;
+}
+
+.dt i{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25pt;
+}
