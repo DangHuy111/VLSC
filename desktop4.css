@@ -1,7 +1,3 @@
-body{
-  min-height: 8000px;
-}
-
 .group-child,
 .group-item {
   position: absolute;
@@ -102,16 +98,12 @@ body{
   display: inline-block;
   width: 75px;
 }
-.desktop4-inner,
-.rectangle-parent {
+.desktop4-inner {
   position: absolute;
   top: 0;
   left: 0;
   width: 1440px;
   height: 53px;
-}
-.desktop4-inner {
-  font-size: 25px;
 }
 .desktop4-child,
 .image-2-icon {
@@ -194,8 +186,8 @@ body{
 }
 .div5 {
   position: absolute;
-  top: 20px;
-  left: 461.27px;
+  top: 54px;
+  left: 461px;
   font-weight: 800;
   display: flex;
   align-items: center;
@@ -234,6 +226,7 @@ body{
   left: 0;
   width: 1443.99px;
   height: 471px;
+  font-size: 35px;
   color: #010000;
 }
 .desk9-child,
@@ -253,11 +246,11 @@ body{
 }
 .vector-icon {
   position: absolute;
-  height: 3.47%;
+  height: 3.46%;
   width: 2.65%;
-  top: 87.78%;
+  top: 92.51%;
   right: 97.35%;
-  bottom: 8.74%;
+  bottom: 4.03%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
@@ -272,11 +265,11 @@ body{
 .vector-icon7,
 .vector-icon8 {
   position: absolute;
-  height: 3.47%;
+  height: 3.46%;
   width: 2.65%;
   top: 0;
   right: 97.35%;
-  bottom: 96.53%;
+  bottom: 96.54%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
@@ -289,8 +282,8 @@ body{
 .vector-icon6,
 .vector-icon7,
 .vector-icon8 {
-  top: 21.51%;
-  bottom: 75.01%;
+  top: 21.42%;
+  bottom: 75.12%;
 }
 .vector-icon3,
 .vector-icon4,
@@ -298,47 +291,47 @@ body{
 .vector-icon6,
 .vector-icon7,
 .vector-icon8 {
-  top: 29.35%;
-  bottom: 67.18%;
+  top: 31.27%;
+  bottom: 65.26%;
 }
 .vector-icon4,
 .vector-icon5,
 .vector-icon6,
 .vector-icon7,
 .vector-icon8 {
-  top: 46.61%;
-  bottom: 49.91%;
+  top: 48.08%;
+  bottom: 48.46%;
 }
 .vector-icon5,
 .vector-icon6,
 .vector-icon7,
 .vector-icon8 {
-  top: 55.11%;
-  bottom: 41.41%;
+  top: 57.69%;
+  bottom: 38.85%;
 }
 .vector-icon6,
 .vector-icon7,
 .vector-icon8 {
-  top: 67.33%;
-  bottom: 29.2%;
+  top: 70.04%;
+  bottom: 26.5%;
 }
 .vector-icon7,
 .vector-icon8 {
-  top: 79.28%;
-  bottom: 17.24%;
+  top: 83.18%;
+  bottom: 13.36%;
 }
 .vector-icon8 {
-  top: 8.37%;
-  bottom: 88.16%;
+  top: 8.41%;
+  bottom: 88.13%;
 }
 .div7 {
-  top: 0;
-  left: 47.87px;
+  top: 25.95px;
+  left: 46.87px;
   font-weight: 500;
   display: flex;
   align-items: center;
   width: 897.48px;
-  height: 753px;
+  height: 735.05px;
 }
 .content,
 .div7,
@@ -346,16 +339,16 @@ body{
   position: absolute;
 }
 .content {
-  height: 85.76%;
-  width: 65.47%;
-  top: 11.16%;
+  height: 86.67%;
+  width: 65.4%;
+  top: 8.2%;
   right: 15.97%;
-  bottom: 3.08%;
-  left: 18.56%;
+  bottom: 5.13%;
+  left: 18.63%;
 }
 .div8 {
-  top: 26px;
-  left: 659.82px;
+  top: 18px;
+  left: 660px;
   font-size: 35px;
   font-weight: 800;
   color: #01ffff;
@@ -363,8 +356,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 162.45px;
-  height: 51px;
+  width: 162px;
+  height: 41px;
 }
 .desk8-child,
 .desk9 {
@@ -376,7 +369,6 @@ body{
   left: -4px;
   height: 878px;
   text-align: justify;
-  font-size: 25px;
 }
 .desk8-child {
   top: 0;
@@ -411,8 +403,9 @@ body{
   align-items: center;
 }
 .div9 {
-  top: 20px;
-  left: 557.54px;
+  top: 42px;
+  left: 550.71px;
+  font-size: 30px;
   font-weight: 800;
   justify-content: center;
   width: 324.9px;
@@ -423,20 +416,18 @@ body{
   font-weight: 500;
 }
 .div10 {
-  top: 70px;
-  left: 298.83px;
-  font-size: 25px;
+  top: 92px;
+  left: 292px;
   justify-content: center;
   width: 859.37px;
   height: 57px;
 }
 .vnd-container {
-  top: 149px;
-  left: 783.16px;
-  font-size: 20px;
+  top: 160px;
+  left: 783px;
   text-align: left;
-  width: 607.68px;
-  height: 338px;
+  width: 608px;
+  height: 327px;
 }
 .desk7-child,
 .desk8 {
@@ -447,6 +438,7 @@ body{
 .desk8 {
   top: 5329px;
   height: 507px;
+  font-size: 20px;
   color: #000;
 }
 .desk7-child {
@@ -501,10 +493,13 @@ body{
 .desk6-child,
 .desk7 {
   position: absolute;
-  top: 4905px;
   left: 0;
   width: 1443.99px;
+}
+.desk7 {
+  top: 4905px;
   height: 424px;
+  font-size: 35px;
 }
 .desk6-child {
   top: 0;
@@ -541,6 +536,7 @@ body{
   left: 0;
   width: 1443.99px;
   height: 438px;
+  font-size: 35px;
   color: #000;
 }
 .div14,
@@ -551,7 +547,7 @@ body{
 }
 .div14 {
   top: 0;
-  left: 306.85px;
+  left: 305px;
   font-weight: 800;
   justify-content: center;
   width: 833.3px;
@@ -559,7 +555,7 @@ body{
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
 }
 .mos-container {
-  top: 81px;
+  top: 51px;
   left: 782px;
   font-size: 25px;
   font-weight: 500;
@@ -570,7 +566,7 @@ body{
 }
 .image-20-icon {
   position: absolute;
-  top: 105px;
+  top: 75px;
   left: 4px;
   border-radius: 0 5px 5px 0;
   width: 757.09px;
@@ -579,7 +575,7 @@ body{
 }
 .desk5-child {
   position: absolute;
-  top: 556px;
+  top: 526px;
   left: 0;
   background-color: #c70039;
   width: 1443.99px;
@@ -592,7 +588,7 @@ body{
   align-items: center;
 }
 .b1 {
-  top: 619px;
+  top: 589px;
   left: 131.36px;
   color: #ffe600;
   justify-content: center;
@@ -600,7 +596,7 @@ body{
   height: 43px;
 }
 .div15 {
-  top: 708px;
+  top: 678px;
   left: 40.11px;
   font-size: 25px;
   font-weight: 500;
@@ -611,7 +607,7 @@ body{
 }
 .image-21-icon {
   position: absolute;
-  top: 556px;
+  top: 526px;
   left: 757.09px;
   width: 686.9px;
   height: 446px;
@@ -623,9 +619,10 @@ body{
   width: 1443.99px;
 }
 .desk5 {
-  top: 3465px;
+  top: 3495px;
   left: -4px;
-  height: 1002px;
+  height: 972px;
+  font-size: 35px;
   color: #ff1314;
 }
 .desk4-child {
@@ -636,23 +633,23 @@ body{
 }
 .image-19-icon {
   position: absolute;
-  top: 513.88px;
-  left: 212.46px;
+  top: 546px;
+  left: 212px;
   border-radius: 20px 20px 0 0;
-  width: 1018.07px;
-  height: 685.12px;
+  width: 1019px;
+  height: 653px;
   object-fit: cover;
 }
 .div16 {
   position: absolute;
-  top: 50.08px;
-  left: 374.78px;
+  top: 4px;
+  left: 369px;
   font-weight: 800;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 693.44px;
-  height: 57.1px;
+  width: 693px;
+  height: 43px;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
   mix-blend-mode: hard-light;
 }
@@ -661,50 +658,54 @@ body{
 }
 .ul {
   margin: 0;
-  padding-left: 33px;
+  padding-left: 13px;
 }
+.desk4,
 .div17 {
   position: absolute;
-  top: 131.22px;
-  left: 133.28px;
+}
+.div17 {
+  top: 223px;
+  left: 237px;
   font-size: inherit;
   font-weight: 800;
   font-family: inherit;
   color: #413f42;
   text-align: justify;
-  display: inline-block;
-  width: 1175.43px;
-  height: 293.49px;
+  display: flex;
+  align-items: center;
+  width: 923px;
+  height: 135px;
 }
-.desk4,
-.image-17-icon,
-.image-18-icon {
-  position: absolute;
+.desk4 {
   top: 2251px;
   left: 1px;
   width: 1443.99px;
   height: 1191px;
+  font-size: 30px;
 }
 .image-17-icon,
 .image-18-icon {
+  position: absolute;
   top: 0;
-  left: 3.01px;
+  left: 2.99px;
+  width: 1437.01px;
   height: 527px;
   object-fit: cover;
 }
 .image-17-icon {
   left: 0;
-  width: 711.97px;
+  width: 708.52px;
 }
 .vlsc-container {
   position: absolute;
   top: 105px;
-  left: 726.01px;
+  left: 722px;
   font-weight: 500;
   text-align: justify;
   display: flex;
   align-items: center;
-  width: 698.93px;
+  width: 683px;
 }
 .button-item {
   top: 0;
@@ -718,7 +719,7 @@ body{
 .button1,
 .div18 {
   position: absolute;
-  width: 243.67px;
+  width: 242.49px;
 }
 .div18 {
   top: 7.53px;
@@ -731,27 +732,27 @@ body{
 }
 .button1 {
   top: 370px;
-  left: 953.63px;
+  left: 949.02px;
   height: 64px;
   color: #ff1314;
 }
 .httpsbitlyxettuyenonline- {
   position: absolute;
   top: 443px;
-  left: 858.37px;
+  left: 854.22px;
   text-decoration: underline;
   font-weight: 600;
   color: #ffe600;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 434.2px;
+  width: 432.1px;
   height: 65px;
 }
 .desk3-child {
   position: absolute;
   top: 434px;
-  left: 1068.62px;
+  left: 1063.41px;
   width: 14.73px;
   height: 25.5px;
   opacity: 0.6;
@@ -759,13 +760,10 @@ body{
 .desk11-child,
 .desk3 {
   position: absolute;
-  left: 0;
-}
-.desk3 {
   top: 1724px;
-  width: 1447px;
+  left: 0;
+  width: 1440px;
   height: 527px;
-  font-size: 25px;
 }
 .desk11-child {
   top: 0;
@@ -776,8 +774,8 @@ body{
     #ff8f3f 55.73%,
     #c12028
   );
-  width: 1440px;
-  height: 1000px;
+  width: 1443.99px;
+  height: 567.34px;
 }
 .image-26-icon,
 .image-27-icon {
@@ -870,110 +868,59 @@ body{
   top: 0;
   left: 0;
   border-radius: 5px;
+  background-color: #dc0606;
   width: 55.15px;
   height: 55.03px;
 }
-.youtubes{
-  background-color: #dc0606;
-  padding: 10px;
-  border-radius: 5px;
-}
-.vector-icon9 {
-  position: absolute;
-  height: 6.79%;
-  width: 63.64%;
-  top: 2038.13%;
-  right: -1823.64%;
-  bottom: -1944.92%;
-  left: 1860%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.fb-child,
 .youtube {
-  position: absolute;
   top: 314.19px;
   left: 1015.81px;
+}
+.fb,
+.fb-child,
+.gg-child,
+.youtube {
+  position: absolute;
   width: 55.15px;
-  height: 385.58px;
+  height: 55.03px;
 }
 .fb-child {
   top: 0;
   left: 0;
   border-radius: 5px;
-  height: 55.03px;
-}
-.vector-icon10 {
-  position: absolute;
-  height: 9.37%;
-  width: 45.45%;
-  top: 2009.49%;
-  right: -1645.46%;
-  bottom: -1918.87%;
-  left: 1700%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-
-.facebook{
-  background-color: #002d9f;
-  padding: 10px 10px;
-  border-radius: 5px;
+  background-color: #1445c5;
 }
 .fb,
 .gg-child {
-  position: absolute;
   top: 314.19px;
   left: 922.55px;
-  width: 55.15px;
-  height: 390.81px;
 }
-.ggcong{
-  background-color: #F84E04;
-  padding: 10px;
+.gg-child {
+  top: 0;
+  left: 0;
   border-radius: 5px;
+  background-color: #f84e04;
 }
-.vector-icon11 {
-  position: absolute;
-  height: 6.79%;
-  width: 72.73%;
-  top: 2038.13%;
-  right: -1998.18%;
-  bottom: -1944.92%;
-  left: 2025.45%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
+.gg {
+  top: 314.19px;
+  left: 1109.06px;
 }
 .gg,
 .phone,
 .phone-child {
   position: absolute;
   width: 55.15px;
-}
-.gg {
-  top: 314.19px;
-  left: 1109.06px;
-  height: 385.58px;
-}
-.phone,
-.phone-child {
   height: 55.03px;
 }
-
+.phone-child {
+  top: 0;
+  left: 0;
+  border-radius: 50px;
+  background-color: #0036c0;
+}
 .phone {
   top: 379.23px;
   left: 1304.6px;
-  box-shadow: 0 0 15px #0036c0;
-  background-color: #0036c0;
-  border-radius: 50%;
-  padding: 5px 10px 2px 14px;
-}
-
-.phone i{
-  font-size: 18pt;
 }
 .desk11-item {
   top: 505.3px;
@@ -987,7 +934,6 @@ body{
 .desk11-item,
 .div24 {
   position: absolute;
-  z-index: -1;
 }
 .div24 {
   top: 519.31px;
@@ -1004,8 +950,8 @@ body{
 .desk11 {
   top: 7185px;
   left: 0;
-  width: 1440px;
-  height: 1000px;
+  width: 1443.99px;
+  height: 567.34px;
   text-align: left;
   font-size: 30px;
 }
@@ -1036,23 +982,20 @@ body{
   width: 655px;
   height: 522px;
 }
-.button-inner {
-  top: 0;
+.button-inner,
+.i1 {
   left: 0;
+  width: 422.93px;
+}
+.button-inner {
+  position: absolute;
+  top: 0;
   border-radius: 10px;
   background-color: #c70039;
   height: 79px;
 }
-.button-inner,
-.button2,
-.desk2,
-.i1 {
-  position: absolute;
-  width: 422.93px;
-}
 .i1 {
   top: 3.72px;
-  left: 0;
   display: flex;
   font-weight: 700;
   align-items: center;
@@ -1060,9 +1003,14 @@ body{
   height: 75.28px;
 }
 .button2,
-.desk2 {
+.desk2,
+.i1 {
+  position: absolute;
+}
+.button2 {
   top: 40px;
   left: 866.47px;
+  width: 422.93px;
   height: 79px;
   text-align: center;
   font-size: 40px;
@@ -1073,46 +1021,45 @@ body{
   width: 1440px;
   height: 626px;
   text-align: justify;
-  font-size: 30px;
 }
+.vector-icon10,
+.vector-icon11,
 .vector-icon12,
-.vector-icon13,
-.vector-icon14,
-.vector-icon15 {
+.vector-icon9 {
   position: absolute;
   height: 0.3%;
   width: 1.74%;
-  top: 97.81%;
+  top: 94.75%;
   right: 6.66%;
-  bottom: 1.9%;
+  bottom: 4.95%;
   left: 91.6%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vector-icon13,
-.vector-icon14,
-.vector-icon15 {
+.vector-icon10,
+.vector-icon11,
+.vector-icon12 {
   width: 2.79%;
-  top: 96.9%;
+  top: 93.91%;
   right: 19.65%;
-  bottom: 2.8%;
+  bottom: 5.79%;
   left: 77.57%;
 }
-.vector-icon14,
-.vector-icon15 {
+.vector-icon11,
+.vector-icon12 {
   width: 2.44%;
-  top: 96.94%;
-  right: 26.31%;
-  bottom: 2.76%;
-  left: 71.25%;
+  top: 93.95%;
+  right: 26.38%;
+  bottom: 5.75%;
+  left: 71.18%;
 }
-.vector-icon15 {
+.vector-icon12 {
   height: 0.42%;
   width: 1.74%;
-  top: 96.85%;
+  top: 93.85%;
   right: 33.19%;
-  bottom: 2.73%;
+  bottom: 5.73%;
   left: 65.07%;
 }
 .instance-child {
@@ -1235,9 +1182,12 @@ body{
 }
 .trang-parent {
   position: absolute;
+  top: 97px;
+  left: 46px;
+  width: 1349px;
   height: 81px;
+  color: #002279;
 }
-
 /* Nút header */
 
 .btnh{
@@ -1268,14 +1218,6 @@ body{
   .dropdown-menu > li:hover > .dropdown-submenu {
   display: block;
   }
-
-
-.trang-parent {
-  top: 74px;
-  left: 39px;
-  width: 1349px;
-  color: #002279;
-}
 .group-child4 {
   position: absolute;
   top: 0;
@@ -1315,10 +1257,17 @@ body{
   position: relative;
   background-color: #fff;
   width: 100%;
-  height: 7752px;
+  height: 8000px;
   overflow: hidden;
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
   color: #fff;
   font-family: Inter;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
 }

@@ -225,25 +225,25 @@
         <div class="desk3">
           <img class="image-5-icon" alt="" src="./public/image-5@2x.png" />
 
-          <div class="div29">중어 학생일 때 꼭 맞는 학업코스</div>
+          <div class="div29 mt-1" style="font-size: 27pt;">중어 학생일 때 꼭 맞는 학업코스</div>
           <div class="div30">
             사이공 반랑 대학에서 중국어를 배우는 것은 중국어에 익숙해지는
             첫걸음부터 체험하는 여정이 될 것이다
           </div>
           <div class="div31">
-            <p class="p">
+            <p class="p" style="margin-right: 40px;">
               학생들은 한자에 익숙해지는 기본적인 초기 단계부터 철자법, 음성
               읽기부터 듣기-말하기-읽기-고급 쓰기 기술까지 안내받을 것이다
             </p>
             <p class="p">&nbsp;</p>
             <p class="p">&nbsp;</p>
-            <p class="p">
+            <p class="p" style="margin-right: 40px;">
               그 과정에서 학생들은 과거부터 현재까지의 중국인과 관습, 역사,
               역사, 사회문화에 대해 더 많이 알게 되었다
             </p>
             <p class="p">&nbsp;</p>
             <p class="p">&nbsp;</p>
-            <p class="p1">
+            <p class="p1" style="margin-right: 40px;">
               또한 학생들은 졸업 후 취업 전망을 보장하기 위해 중급 및 고급
               수준에서 영어와 비즈니스 중국어도 배운다
             </p>
@@ -267,11 +267,11 @@
             <div class="div33">즉시 참가하다</div>
           </div>
         </div>
-        <div class="desk11" style="margin-top: 120px;">
+        <div class="desk11">
           <div class="desk11-child" style="height: 700px; margin-top: 10px;"></div>
-          <img class="image-26-icon" alt="" src="./public/image-26@2x.png" />
+          <img class="image-26-icon" alt="" src="./public/image-26@2x.png" style="z-index: 999;"/>
   
-          <img class="image-27-icon" alt="" src="./public/image-27@2x.png" />
+          <img class="image-27-icon" alt="" src="./public/image-27@2x.png"  style="z-index: 999;"/>
   
           <div class="div19" style="font-size: 20pt;">시스템이 있는 장치</div>
           <div class="div20" style="font-size: 20pt;">주관부대</div>
@@ -458,29 +458,9 @@
         <div class="desk3">
           <img class="image-5-icon" alt="" src="./public/image-5@2x.png" />
 
-          <div class="div29">중어 학생일 때 꼭 맞는 학업코스</div>
-          <div class="div30">
-            사이공 반랑 대학에서 중국어를 배우는 것은 중국어에 익숙해지는
-            첫걸음부터 체험하는 여정이 될 것이다
-          </div>
-          <div class="div31">
-            <p class="p">
-              학생들은 한자에 익숙해지는 기본적인 초기 단계부터 철자법, 음성
-              읽기부터 듣기-말하기-읽기-고급 쓰기 기술까지 안내받을 것이다
-            </p>
-            <p class="p">&nbsp;</p>
-            <p class="p">&nbsp;</p>
-            <p class="p">
-              그 과정에서 학생들은 과거부터 현재까지의 중국인과 관습, 역사,
-              역사, 사회문화에 대해 더 많이 알게 되었다
-            </p>
-            <p class="p">&nbsp;</p>
-            <p class="p">&nbsp;</p>
-            <p class="p1">
-              또한 학생들은 졸업 후 취업 전망을 보장하기 위해 중급 및 고급
-              수준에서 영어와 비즈니스 중국어도 배운다
-            </p>
-          </div>
+          
+
+          
         </div>
         <div class="desk2">
           <img class="image-3-icon" alt="" src="./public/image-3@2x.png" />
@@ -502,9 +482,7 @@
         </div>
         <div class="desk11">
           <div class="desk11-child"></div>
-          <img class="image-26-icon" alt="" src="./public/image-26@2x.png" />
-
-          <img class="image-27-icon" alt="" src="./public/image-27@2x.png" />
+          
 
           <div class="div34" style="font-size: 20pt;">시스템이 있는 장치</div>
           <div class="div35" style="font-size: 20pt;">주관부대</div>
@@ -786,5 +764,42 @@
         </div>
       </div>
     </div>
+    
+    <button
+        type="button"
+        class="btn btn-danger btn-floating btn-lg"
+        id="btn-back-to-top"
+        >
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Explanation -->
+    <script>
+      //Get the button
+      let mybutton = document.getElementById("btn-back-to-top");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      // When the user clicks on the button, scroll to the top of the document
+      mybutton.addEventListener("click", backToTop);
+
+      function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
   </body>
 </html>
